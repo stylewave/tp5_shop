@@ -1,0 +1,21 @@
+Terran目录为订单后台数据    starcraft，777*777
+Protoss 小程序项目
+Zerg tp5框架代码
+
+
+listen 9904
+<VirtualHost *:9904>
+    DocumentRoot "D:/data/y0zdij/Zerg/public"
+    #ServerName www.php2020.com
+	 ServerAlias 
+  
+  <Directory "D:/data/y0zdij/Zerg/public>
+      Options FollowSymLinks ExecCGI
+      AllowOverride All
+      Order allow,deny
+      Allow from all
+     Require all granted
+  </Directory>
+</VirtualHost>
+
+listen 9905
